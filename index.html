@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DevJohann Portfolio website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:400,900&display=swap" rel="stylesheet"> 
 
     
 
@@ -15,9 +17,9 @@
 <body>
     <header>
         <div class="logo">
-            <img src="images/profile2.jpg" alt="Profile pic">
+            <img src="images/devjane.png" alt="Profile pic">
         </div>
-        <button class="nav-toogle" aria-label="toogle-navigation">
+        <button class="nav-toogle" aria-label="toogle navigation">
             <span class="hamburguer"></span>
         </button>
         <nav class="nav">
@@ -30,63 +32,119 @@
         </nav>
     </header>
 
-    <section class="intro" id="home">
-        <h1 class="section__title section__tile--intro">
-            Hi, I am <strong>Johann Moreno</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">full stack dev</p>
-        <img src="images/profile.jpg" alt="Profile pic">
-    </section>
+<!-- Introduction -->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Jane Smith</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="images/dev-jane-01.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+</section>
 
-    <section class="my-services" id="services">
-        <h2 class="section_title section_title--services"></h2>
-        <div class="services">
-            <div class="service">
-                <h3></h3>
-                <p></p>
-            </div>
-            <div class="service">
-                <h3></h3>
-                <p></p>
-            </div>            
-            <div class="service">
-                <h3></h3>
-                <p></p>
-            </div>                
-        </div>
-        <a href="#" class="btn">My work</a>
-    </section>
+
+<!-- My services -->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Design + Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div> <!-- / service -->
+        
+        <div class="service">
+            <h3>E-Commerce</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div> <!-- / service -->
+        
+        <div class="service">
+            <h3>WordPress</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div> <!-- / service -->
+    </div> <!-- / services -->
     
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about"></h2>
-        <p class="section__subtitle section__subtitle--about">full stack dev</p>
+    <a href="#work" class="btn">My Work</a>
+</section>
 
-        <div class="about-me__body">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </div>
 
-        <img src="null" alt="Otra foto mia">
-    </section>
+<!-- About me -->
+<section class="about-me" id="about">
+   <h2 class="section__title section__title--about">Who I am</h2>
+   <p class="section__subtitle section__subtitle--about">Designer & developer based out of NYC</p>
+   
+   <div class="about-me__body">
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   </div>
+   
+   <img src="images/dev-jane-02.jpg" alt="Jane leaning against a bus">
+</section>
 
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section-subtitle section-subtitle--work"></p>
+<!-- My Work -->
+<section class="my-work" id="work">
+    <h2 class="section__title">My work</h2>
+    <p class="section__subtitle"></p>
+    
+    <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-01.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-02.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 03 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-03.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 04 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-04.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 05 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-05.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 06 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-06.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 07 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-07.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 08 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-08.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 09 -->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-09.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 0 0-->
+        <a href="#" class="portfolio__item">
+            <img src="images/portfolio-10.jpg" alt="" class="portfolio__img">
+        </a>
+    </div>
+</section>
 
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <img src="portfolio-01.jpg" alt="portfolio01" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <img src="portfolio-01.jpg" alt="portfolio01" class="portfolio__img">
-            </a>
-            <a href="#" class="portfolio__item">
-                <img src="portfolio-01.jpg" alt="portfolio01" class="portfolio__img">
-            </a>
-        </div>
-    </section>
+    <footer>
+        <a href="mailto:johanndmoreno24gmail.com" class="footer-link">johanndmoreno24gmail</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="#" class="social-list__link">Linkedin</a></li>
+            <li class="social-list__item"><a href="#" class="social-list__link">Twitter</a></li>
+            <li class="social-list__item"><a href="#" class="social-list__link">Github</a></li>
+            <li class="social-list__item"><a href="#" class="social-list__link"></a>Codewars</li>
+        </ul>
+    </footer>
 </body>
 </html>
