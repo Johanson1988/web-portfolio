@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:400,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
 
     
 
@@ -19,15 +20,15 @@
         <div class="logo">
             <img src="images/devjane.png" alt="Profile pic">
         </div>
-        <button class="nav-toogle" aria-label="toogle navigation">
-            <span class="hamburguer"></span>
+        <button class="nav-toggle" aria-label="toogle navigation">
+            <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="navv__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="navv__item"><a href="#projects" class="nav__link">My projects</a></li>
-                <li class="navv__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="navv__item"><a href="#work" class="nav__link">My work</a></li>                
+                <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>                
             </ul>
         </nav>
     </header>
@@ -35,10 +36,10 @@
 <!-- Introduction -->
 <section class="intro" id="home">
     <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Jane Smith</strong>
+        <strong>Johann Moreno</strong>
     </h1>
     <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-    <img src="images/dev-jane-01.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+    <img src="images/profile.jpg" alt="My profile picture" class="intro__img">
 </section>
 
 
@@ -82,7 +83,7 @@
 <!-- My Work -->
 <section class="my-work" id="work">
     <h2 class="section__title">My work</h2>
-    <p class="section__subtitle">Selection of my region of work</p>
+    <p class="section__subtitle">Selection of my range of work</p>
     
     <div class="portfolio">
         <!-- Portfolio item 01 -->
@@ -137,14 +138,33 @@
     </div>
 </section>
 
-    <footer>
-        <a href="mailto:johanndmoreno24gmail.com" class="footer-link">johanndmoreno24gmail</a>
+    <footer>        
         <ul class="social-list">
-            <li class="social-list__item"><a href="#" class="social-list__link">Linkedin</a></li>
-            <li class="social-list__item"><a href="#" class="social-list__link">Twitter</a></li>
-            <li class="social-list__item"><a href="#" class="social-list__link">Github</a></li>
-            <li class="social-list__item"><a href="#" class="social-list__link"></a>Codewars</li>
+            <li class="social-list__item">
+                <a href="mailto:johanndmoreno24@gmail.com" class="social-list__link" target="_blank"><i class="far fa-envelope" title="Email"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/johannmoreno/" class="social-list__link" target="_blank">
+                    <i class="fab fa-linkedin-in" title="Linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://mobile.twitter.com/JohannDMoreno" class="social-list__link" target="_blank">
+                    <i class="fab fa-twitter" title="Twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/Johanson1988" class="social-list__link" target="_blank">
+                    <i class="fab fa-github" title="Github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.codewars.com/users/johanson88" class="social-list__link" target="_blank">
+                    <span class="iconify" data-icon="simple-icons:codewars" data-inline="false" title="Codewars"></span>
+                </a>
+            </li>
         </ul>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
